@@ -3,7 +3,7 @@ def extract():
   html = os.listdir("./html")
   for i in html:
     print(i)
-    file_open = open("./html/"+i,"r")
+    file_open = open("./html/"+i,"r", encoding="utf8")
     file_lines = file_open.readlines()
 
     for line in range(len(file_lines)):
