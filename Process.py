@@ -56,4 +56,4 @@ for index, item in enumerate(list): #iterate aptamer file lines by index num
         hairpin_dict [name] = h_num
 file.close()
 print (hairpin_dict)
-print("hello world")
+#print("hello world")
