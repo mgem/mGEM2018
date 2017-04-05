@@ -1,20 +1,20 @@
 
-Moloney Murine Leukemia Virus
-5'-UUACCACGCGCUCUUAACUGCUAGCGCCAUGGC-3'
-
-Mycolactone Aptamer
+Ricin A-chain (RTA) Aptamer (RA80.1.d2 - 31RA)
+5'-GGCGAACAGGGGACGAGCAAGACGCC-'3
 
 cAMP
 5'-{5'/Phosphate}-GGAAGAGAUGGCGACUAAAACGACUUGUCGC-3'
 
-Interleukin-6 receptor (AIR-3A)
-5'-GGGGAGGCUGUGGUGAGGG-3'
-
 L-Isoleucine (IL 42-32b)
 5'-P-GGUCUUACGUCGUUCGCGACUAUUGGGAGACC-3'
 
-Ricin A-chain (RTA) Aptamer (RA80.1.d2 - 31RA)
-5'-GGCGAACAGGGGACGAGCAAGACGCC-'3
+Moloney Murine Leukemia Virus
+5'-UUACCACGCGCUCUUAACUGCUAGCGCCAUGGC-3'
 
 Epithelial cell adhesion molecule (EpCAM) (Truncated Clone D)
 5'-GCGACUGGUU ACCCGGUCG-3'
+
+Interleukin-6 receptor (AIR-3A)
+5'-GGGGAGGCUGUGGUGAGGG-3'
+
+Mycolactone Aptamer
