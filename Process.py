@@ -12,15 +12,20 @@ Output: dictionary with aptamer name, and number of hairpin structures.
 MINIMUM_HAIRPIN_LENGTH = 5
 #function to count hairpins (palindromes)
 
+#returns inverted repeat sequence of sequence of interest to look for (String)
 def inverted_repeat (input_sequence):
+    #replace A with T and vice versa 
     input_sequence = input_sequence.replace('A','X')
     input_sequence = input_sequence.replace('T','A')
     input_sequence = input_sequence.replace('X','T')
+    #replace C with G and vice versa
     input_sequence = input_sequence.replace('C','X')
     input_sequence = input_sequence.replace('G','C')
     input_sequence = input_sequence.replace('X','G')
+    #invert the complementary sequence 
     return input_sequence[::-1]
-
+#count the number of hairpins
+#returns: hairpin count 
 def hairpin (sequence):
     hairpin_num =0
     sequence = sequence.strip('5\'')  
