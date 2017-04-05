@@ -1,5 +1,8 @@
 import os
 def extract():
+  # Gets names and sequences from html files, exports a .txt file with info
+  # Might not be universal for all aptamers in the database :/
+
   # Define where the html/ directory is
   html = os.listdir("./html")
 
