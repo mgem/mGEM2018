@@ -1,0 +1,338 @@
+{{Template_All_Teams}}
+
+<!-- Declare that you are going to use html code instead of wiki code -->
+<html>
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,600,700' rel='stylesheet' type='text/css'>
+<!-- Start of CSS - Changing iGEM defaults here-->
+		<style type="text/css">
+
+		/* WIKI SETTINGS*/
+		
+		/* Hide first heading */
+			.firstHeading {
+				display: none;
+			}
+		
+		/*-- Remove borders, float content left and remove padding/margin */
+			#content{
+				background-color: transparent;
+				//border: 3px solid red;
+				float: left;
+				width: 75%;
+				margin-left: 12.5%;
+				padding: 0px;
+			}
+			#globalWrapper{
+				//border: 3px solid blue;
+				float:left;
+				margin-left:0%;
+				padding: 0px;
+				width:100%;
+			}
+
+		/*left align Black Menu Bar */
+			#top_menu_inside { 
+				margin-left: 25%; 
+			}
+		</style>
+
+
+	<!-- Start of CSS-->
+		<style type="text/css">
+
+		/* PAGE LAYOUT */
+
+		/* Change Background color*/
+			body { 
+				background-color: #606566;
+	}
+
+		/* Creates a container that will wrap all of the content inside your wiki pages. */
+			#mainContainer {  			
+                                //width: 978px;
+				width: 100%;
+				overflow:hidden;
+				margin-left:0%;
+                                //margin-right:auto;
+                                margin-bottom: 10px;
+				background-color: #fff; 
+				box-shadow: 0px 0px 50px gray;
+				//border: 2px solid #565656;
+				font-family: 'Open Sans', sans-serif;
+				font-weight:400;
+				//font-family: "Trebuchet MS", Helvetica, sans-serif;
+			}
+
+		/* Creates the container for the menu */
+			#menuContainer  { 
+				//float:right;
+                                display: inline-block;
+                                text-align: center;
+				width: 100%;
+				padding: 5px 0px; 
+				//note on padding order: top/bottom are 5px, left/right are 15px
+				//border-top: 10px solid #565656;
+				//border-bottom: 10px solid #565656;
+				background-color: #568F3F;
+                                margin: 0 auto;
+			}
+
+		/* Creates the container for the content */
+			#contentContainer {
+				padding: 0px;
+                                margin: 0px;
+				width: 100%;
+				//width: 895px;
+				//width: 930px;
+				//float: left;
+                                display: inline-block;
+				background-color: white; 
+				//border: 1px solid red;
+				//border-top: 14px solid #565656;
+				font-family: 'Open Sans', sans-serif;
+				//font-family: "Trebuchet MS", Helvetica, serif;
+
+			}
+
+		/*Set up height place holder for the banner*/
+			#bannerContainer {
+				//height:200px;
+				margin:auto;
+				text-align:center;
+				color: #24C794;
+			}
+
+		/*VISUAL STYLE (TABLES, FONTS, LINKS, IMAGES, UL) */
+
+		/*Change the styling of text for everything inside main container*/
+			#mainContainer p { 
+				font-size: 16px;
+				color: #000000;
+				padding:10px 0px;
+				line-height:1.75;
+			}
+			
+		/*This changes the color and font family */
+			#contentContainer h1, h2, h3, h4, h5, h6 { 
+				color: #565656;
+				border-bottom: none;
+				font-weight: bold;
+				font-family: 'Open Sans', sans-serif;
+				font-weight:800;
+				//font-family: "Trebuchet MS", Helvetica, sans-serif;
+				margin-top:10px;
+				padding:25px 0px;
+			}
+			#contentContainer h1{
+				font-size:42px;
+			}
+			#contentContainer h2{
+				font-size:36px;
+			}			
+			#contentContainer h3{
+				font-size:30px;
+			}			
+			#contentContainer h4{
+				font-size:24px;
+			}	
+			#contentContainer h5{
+				font-size:18px;
+			}
+			#contentContainer h6{
+				font-size:16px;
+			}
+			#contentContainer li{
+				font-size:16px;
+			}
+		/*Style of the links - links are different inside the menu */
+			#contentContainer a { 
+				font-weight: bold;
+				color: #EEB211;
+				font-size:16px;
+			}
+
+	 	  /* Styling links on hover- links are different inside the menu */
+			#contentContainer a:hover { 
+				color: black;
+				font-size:16px;
+				text-decoration:none;
+			}
+
+		/*Change the styling of tables */
+    	    		#contentContainer table {
+    				border: 1px solid #565656;
+    				border-collapse: collapse;
+    				width: 90%;
+    				margin: auto;
+    				margin-bottom: 15px;
+    				margin-top: 15px;
+    				margin-right: 10px;
+    				margin-left: 10px;
+    			}
+
+		/*Change the styling of table cells*/
+    			#contentContainer  td {
+    				padding: 10px;
+    				border: 1px solid #565656;
+    				border-collapse: collapse;
+    				vertical-align: text-top;
+    			}
+
+		/*Change the styling of table headers */
+    			#contentContainer th {
+    				background-color: #E8E8E9;
+    				padding: 10px;
+    				border: 1px solid #565656;
+    				border-collapse: collapse;
+    				vertical-align: text-top;
+    			}
+
+
+
+		/*MENU STYLING */
+
+		/*Styling for the links in the menu */
+			#menuContainer a {
+				color: #FFF;
+				text-decoration:none;
+				font-weight: bold;
+			}
+
+		/* Sets the style for lists inside menuContainer  */
+			#menuContainer ul { 
+				list-style: none;
+			}
+
+		/*Styles the list items to become menu buttons */
+			#menuContainer ul li { 
+				font-size:14px;
+				color:#FFF;
+				text-align: center;
+				display: block;
+				position:relative;
+				float:left;
+				width: 15%;
+				padding: 0.8%;
+			}
+
+		/*For the menu buttons, changes the color when hovering*/
+			#menuContainer li:hover {
+				color:  #FFF;
+				background-color: #EEB211;
+				//box-shadow: 0px 0px 10px 1px gray;
+			}
+
+		/*Submenus are not displayed as default*/
+			#menuContainer li ul {
+				display: none;
+				position: absolute;
+				opacity: 0.95;
+				box-shadow: 0px 0px 10px 1px gray;
+				padding:0px 0px;
+				margin-top: 10px;
+				width:100%;
+				//border:3px solid gray;
+				margin-left: -5%;
+			}
+
+		/*Submenus are displayed when hovering the menu button */
+			#menuContainer li:hover ul {	
+				display: block;
+ 			}
+
+		/*Style the submenu buttons*/
+			#menuContainer li ul li{
+				background-color: #990033; 
+				color: #FFF;
+				padding:10px 0px;
+				margin-bottom:-1px;
+				width: 100%;
+				//border: 1px solid #ebb211;
+			}
+
+	/*CLASSES */
+
+		/*Clear class for all the pages, adds spacing too*/
+			.clear{
+				clear:both;
+				height: 10px;
+			}
+
+
+		/* highlight box for special messages */
+    			.highlightBox {
+    			    	width:80%; 
+    			    	margin-left:10%; 
+    			    	background-color: #E8E8E9; 
+				margin-bottom: 15px;
+				margin-top: 15px;
+				padding: 15px;
+				//padding-top: 5px;
+				font-size:16px;
+    			 }
+			.band{
+				margin:0px;
+			 	padding:20px 125px;
+			}
+                        #menu { margin-top: 15px; }
+                        .menu-item { padding: 0 15px 0 0; }
+                        nav ul { list-style-type:none; }
+                        nav ul li { display: inline; }
+                        nav ul li a img { width: 50px; height: 50px; }
+
+		</style>
+	<!-- End of CSS -->
+
+		<!-- Start of the template html elements. -->
+		<div id ="mainContainer"><!--The closing tag for mainContainer should be placed at the bottom of each content page.-->
+
+
+			<div id="bannerContainer">
+			     <img width = "100%"; src = "http://2015.igem.org/wiki/images/2/24/Mgem_banner.jpg">		
+			</div>
+
+			<!-- Start of menu -->
+			<div id="menuContainer" align = "center">
+				<!-- This list is your menu, every list item is a menu button and nested listed become submenu buttons -->
+				 <ul>
+					<a href="http://2015.igem.org/Team:Hamilton_McMaster"><li>HOME</li></a>
+
+					<a href="#"><li>PROJECT
+            					<ul>
+							<a href="http://2015.igem.org/Team:Hamilton_McMaster/Background"><li>Background</li></a>
+                                                        <a href="http://2015.igem.org/Team:Hamilton_McMaster/Methodologies"><li>Methodologies</li></a>
+                                                        <a href="http://2015.igem.org/Team:Hamilton_McMaster/Design"><li>Design</li></a>
+                                                        <a href="http://2015.igem.org/Team:Hamilton_McMaster/Hardware"><li>Hardware</li></a>					
+						</ul>
+					</li></a>
+                                       <a href="#"><li>BLOG
+            					<ul>
+							<a href="http://2015.igem.org/Team:Hamilton_McMaster/blog/2015-08-17"><li>A Fledgling's Guide to Syn Bio</li></a>
+					                <a href="http://2015.igem.org/Team:Hamilton_McMaster/blog/2015-08-24"><li>Preparing the Lab</li></a>
+					                <a href="http://2015.igem.org/Team:Hamilton_McMaster/blog/2015-08-31"><li>TRANSFORM!</li></a>
+					                <a href="http://2015.igem.org/Team:Hamilton_McMaster/blog/2015-09-07"><li>Streaking, Overnight Cultures, and Glycerol Stocks</li></a>
+					                <a href="http://2015.igem.org/Team:Hamilton_McMaster/blog/2015-09-14"><li>E. coli Go to a Happier Place...</li></a>
+					
+														
+						</ul>
+					</li></a>
+
+
+                                        <a href="#"><li>TEAM
+            					<ul>
+							<a href="http://2015.igem.org/Team:Hamilton_McMaster/Team"><li>Members</li></a>
+					                <a href="http://2015.igem.org/Team:Hamilton_McMaster/Sponsors"><li>Sponsors</li></a>
+														
+						</ul>
+					</li></a>
+
+					
+
+				 </ul>
+			</div> 
+			<!-- End of menu  -->
+
+			<!-- Start of content -->
+			<div id="contentContainer"> <!--The closing tag for contentContainer should be placed at the bottom of each content page.-->
+</html>
