@@ -36,8 +36,3 @@ for i in range(len(div_results)):
 print name_data_dict
 
 
-
-
-
-
-
