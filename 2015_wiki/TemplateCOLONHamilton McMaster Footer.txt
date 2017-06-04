@@ -1,0 +1,34 @@
+<html>
+
+<div class = "band"; style = "background-color:#AEA8A9">
+<nav id="menu" align="center">
+<h4>Follow Us</h4>
+				<ul>
+					<li>
+						<a title="Check us out on Facebook" href="https://facebook.com/igemmcmaster" class="menu-item" style="text-decoration:none;">
+			    			<img src="http://2015.igem.org/wiki/images/9/92/Fb1.png"/>
+						</a>
+					</li>
+					<li>
+						<a title="Follow uson Twitter" href="https://twitter.com/iGEM_McMaster" class="menu-item" style="text-decoration:none;">
+			    			<img src="http://2015.igem.org/wiki/images/6/6f/Twit1.png"/>
+						</a>
+					</li>
+ 					<li>
+						<a title="See us on Instagram" href="https://www.instagram.com/igemmcmaster" class="menu-item" style="text-decoration:none;">
+			    			<img src="http://2015.igem.org/wiki/images/9/97/Insta1.png"/>
+						</a>
+					</li> 
+					<li>
+						
+						<a title="Check out our website" href="http://mcmastergem.com" class="menu-item" style="text-decoration:none;">
+			    			<img src="http://2015.igem.org/wiki/images/e/e7/Mgem1.png"/>
+						</a>
+					</li>			
+				</ul>
+
+<h5>&copy; 2015 mGEM - Designed by <a href="http://kushalpanchal.me" alt="Kushal Panchal">Kushal Panchal</a></h5>
+			</nav>
+		
+</div>
+</html>
