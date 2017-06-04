@@ -1,0 +1,16 @@
+{{Hamilton_McMaster}}
+
+<html>	
+<div class = "band">
+<center>
+<h1> Thank You to our Sponsors </h1>
+<img src="http://2015.igem.org/wiki/images/c/cd/Team_McMaster_s1.jpg" height="250" width="600" >
+<img src="http://2015.igem.org/wiki/images/d/da/Team_McMaster_s2.jpg"  >
+<img src="http://2015.igem.org/wiki/images/c/c8/Team_McMaster_s3.jpg" height="333" width="600" >
+<img src="http://2015.igem.org/wiki/images/8/85/Team_McMaster_s4.jpg" height="333" width="600" >
+<img src="http://2015.igem.org/wiki/images/6/6a/Team_McMaster_s5.jpg" height="333" width="600" >
+<img src="http://2015.igem.org/wiki/images/0/02/Team_McMaster_s6.jpg" height="333" width="600" >
+</center>
+</div>
+</html>
+{{:Template:Hamilton_McMaster_Footer}}

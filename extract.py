@@ -39,7 +39,7 @@ def extract():
         if trim_seq_string[:3] != "5\'-":
           trim_seq_string = "5\'-" + trim_seq_string
         if trim_seq_string[-3:] != "-3\'":
-          trim_seq_string = trim_seq_string + "-\'3"
+          trim_seq_string = trim_seq_string + "-3\'"
         # Append the modified string to the lines to be written
         write_lines.append(trim_seq_string)
         write_lines.append("\n")
@@ -54,4 +54,3 @@ def extract():
   f.close()
         
 extract()
- 
