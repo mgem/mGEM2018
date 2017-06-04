@@ -1,0 +1,20 @@
+{{Hamilton_McMaster}}
+
+<html>	
+<div class = "band">
+<h2> Plasmid Design</h2>
+<center>
+<img src="http://2015.igem.org/wiki/images/b/ba/Glp.png" >
+<p> Green light inducible plasmid </p>
+<img src="http://2015.igem.org/wiki/images/b/b6/Rlp.png" >
+<p> Red light inducible plasmid </p>
+<img src="http://2015.igem.org/wiki/images/c/cc/Clp.png" >
+<p> Chromophore producing plasmid </p>
+</center>
+</div>
+<div class = "band"; style="background-color:#FFF">
+<h2> Project Design</h2>
+<center><img src="http://2015.igem.org/wiki/images/5/56/Schematicmgem.png" height="489" width="750" ></center>
+</div>
+</html>
+{{:Template:Hamilton_McMaster_Footer}}

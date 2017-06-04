@@ -1,0 +1,138 @@
+{{Hamilton_McMaster}}
+
+<html>	
+<head>
+<style>
+.entry 
+{
+box-shadow: 0px 0px 10px #cccccc;
+background-size:cover;
+margin: 1.25%;
+width: 320px;
+height: 320px;
+display:block;
+float:left;
+color:#FFF
+}
+
+.info
+{
+background-color: rgba(152,26,54,0.75);
+display:none;
+width:96%;
+height:96%;
+padding:7px;
+overflow:auto;
+color:#FFF
+}
+
+.entry:hover .info
+{
+display:block;
+}
+
+h3{
+line-height:100%;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="band" style="background-color:#fff">
+<h3 style = "text-align:center">2015 McMaster University iGEM Team</h3>
+
+<p style = "text-align:center"><img style = "width:75%; margin-left:12.5"; src="http://2015.igem.org/wiki/images/f/f6/Team_McMaster_group.jpg"></p>
+</div>
+
+<div class = "band"; style = "background-color:#1E1F21">
+<h2 style="text-align:center">Undergraduate Research Team</h2>
+
+<div class="entry"; style = "background-image:url(http://2015.igem.org/wiki/images/2/29/Team_McMaster_Max.jpg)"><div class ="info"><center><h3 style="color:#FFF">Maxwell Ng</h3>Health Sciences</center>
+</div></div>
+
+<div class="entry"; style = "background-image:url(http://2015.igem.org/wiki/images/c/cd/Team_McMaster_Hamza.jpg)">
+<div class ="info"><center><h3 style="color:#FFF">Hamza Qamar</h3>Biology & Pharmacology</center></div></div>
+
+<div class="entry"; style = "background-image:url(http://2015.igem.org/wiki/images/7/72/Team_McMaster_FeiFei.jpg)">
+<div class ="info"><center><h3 style="color:#FFF">Yu Fei Xia</h3>Health Sciences</center></div></div>
+
+<div class="entry"; style = "background-image:url(http://2015.igem.org/wiki/images/a/a8/Team_McMaster_Dhany.jpg)">
+<div class ="info"><center><h3 style="color:#FFF">Dhanyasri Maddiboina</h3>Integrated Sciences</center></div></div>
+
+<div class="entry"; style = "background-image:url(http://2015.igem.org/wiki/images/4/4a/Team_McMaster_Sam.jpg)"><div class ="info"><center><h3 style="color:#FFF">Dhanyasri Maddiboina</h3>Integrated Sciences</center></div></div>
+
+<div class="entry"; style = "background-image:url(http://2015.igem.org/wiki/images/4/4f/Team_McMaster_Katya.jpg)">
+<div class ="info"><center><h3 style="color:#FFF">Katya D'Costa</h3>Chemical Engineering and Bioengineering</center></div></div>
+
+<div class="entry"; style = "background-image:url(http://2015.igem.org/wiki/images/0/0a/Team_McMaster_Sachin.jpg)">
+<div class ="info"><center><h3 style="color:#FFF">Sachin Doshi</h3>Health Sciences</center></div></div>
+
+<div class="entry"; style = "background-image:url(http://2015.igem.org/wiki/images/2/2d/Team_McMaster_Sophia.jpg)">
+<div class ="info"><center><h3 style="color:#FFF">Sophia Duong</h3>Biochemistry</center></div></div>
+
+<div class="entry"; style = "background-image:url(http://2015.igem.org/wiki/images/8/85/Team_McMaster_Michael.jpg)">
+<div class ="info"><center><h3 style="color:#FFF">Michael Xie</h3>Health Sciences</center></div></div>
+
+<div class="entry"; style = "background-image:url(http://2015.igem.org/wiki/images/3/36/Team_McMaster_Ramneet.jpg)">
+<div class ="info"><center><h3 style="color:#FFF">Ramneet Mann</h3>Life Sciences</center></div></div>
+
+<div class="entry"; style = "background-image:url(http://2015.igem.org/wiki/images/1/15/Team_McMaster_karanbir.jpg)">
+<div class ="info"><center><h3 style="color:#FFF">Karanbir Brar</h3>Health Sciences</center></div></div>
+
+<div class="entry"; style = "background-image:url(http://2015.igem.org/wiki/images/2/2e/Team_McMaster_mansi.jpg)">
+<div class ="info"><center><h3 style="color:#FFF">Manasi Parikh</h3>Health Sciences</center></div></div>
+
+<div class="entry"; style = "background-image:url(http://2015.igem.org/wiki/images/5/5f/Team_McMaster_farhan.jpg)">
+<div class ="info"><center><h3 style="color:#FFF">Farhaan Kanji</h3>Molecular Biology and Genetics</center></div></div>
+
+<div class="entry"; style = "background-image:url(http://2015.igem.org/wiki/images/9/99/Team_McMaster_pavithra.jpg)">
+<div class ="info"><center><h3 style="color:#FFF">Pavithra Parthasarathy</h3>Life Sciences</center></div></div>
+
+<div class="entry"; style = "background-image:url(http://2015.igem.org/wiki/images/e/e1/Team_McMaster_vivian.jpg)">
+<div class ="info"><center><h3 style="color:#FFF">Vivian Lau</h3>Chemical Biology</center></div></div>
+
+<div class="entry"; style = "background-image:url(http://2015.igem.org/wiki/images/9/9e/Team_McMaster_mike.jpg)">
+<div class ="info"><center><h3 style="color:#FFF">Michael Ranieri</h3>Biochemistry</center></div></div>
+
+<br style = "clear:both">
+</div>
+
+<div class = "band";  style="background-color:#9B9D9E">
+<h3 style="text-align:center">Productions and Designs</h3>
+
+<a href="http://kushalpanchal.me"><div class="entry"; style = "background-image:url(http://2015.igem.org/wiki/images/d/dd/Team_McMaster_Kushal2.jpg)"><div class ="info">
+<center><h3 style="color:#FFF">Kushal Panchal</h3>Chemical Engineering and Bioengineering</center></div></a></div>
+
+<br style = "clear:both">
+
+</div>
+
+<div class = "band";  style="background-color:#414B58">
+<h3 style="text-align:center; color:white;">Advisors</h3>
+
+<div class="entry"; style = "background-image:url(http://2015.igem.org/wiki/images/7/71/Team_McMaster_dsilva.jpg)">
+<div class ="info">
+<center><h3 style="color:#FFF">Dr. Rosa Da Silva</h3></center>Professor with PhD in cell and systems biology</div></div>
+
+<div class="entry"; style = "background-image:url(http://2015.igem.org/wiki/images/7/79/Team_McMaster_dej.jpg)"><div class ="info">
+<center><h3 style="color:#FFF">Dr. Kimberly Dej</h3>Professor with PhD in Molecular Biology and Molecular Genetics</center></div></div>
+
+<div class="entry"; style = "background-image:url(http://2015.igem.org/wiki/images/6/69/Team_McMaster_elliot.jpg)"><div class ="info">
+<center><h3 style="color:#FFF">Dr. Marie Elliot</h3></center>Professor with PhD in Regulation of Gene Expression in <i>Streptomyces</i></center></div></div>
+
+<div class="entry"; style = "background-image:url(http://2015.igem.org/wiki/images/7/7d/Team_McMaster_allison.jpg)"><div class ="info">
+<center><h3 style="color:#FFF">Alison Cowie</h3>Research Assistant and Instructional Assistant</center></div></div>
+
+<div class="entry"; style = "background-image:url(http://2015.igem.org/wiki/images/a/a4/Team_McMaster_katherine.jpg)"><div class ="info">
+<center><h3 style="color:#FFF">Katherine Cornelius</h3>Candidate Master of Science (MSc) for Plant/Environmental Biology</center></div></div>
+
+<br style = "clear:both">
+
+</div>
+
+</div>
+</body>
+</html>
+{{:Template:Hamilton_McMaster_Footer}}
