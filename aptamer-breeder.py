@@ -26,16 +26,18 @@ sorted_aptamers = sorted(aptamers, key=lambda x: x[2], reverse=True) # sorts apt
 print sorted_aptamers
 
 offspring = 8 # desired number of offspring
+top_parents = 3 # desired number of top scoring parents to cross
 bred_aptamers = []
 
 # the two highest scoring aptamers are randomly crossed over to generate a specified number of offspring
 for i in range(0,offspring):
-	x = randint(0,19)
+	x = randint(0,19) # random nucleotide postion along the 20 bp aptamer
+	y = randint(0,top_parents - 1)
 	if x == 0:
-		bred_aptamers.append(["offspring_" + str(i),sorted_aptamers[1][1]])	
+		bred_aptamers.append(["offspring_" + str(i),sorted_aptamers[y][1]])	
 	elif x == 19:
-		bred_aptamers.append(["offspring_" + str(i),sorted_aptamers[0][1]])
+		bred_aptamers.append(["offspring_" + str(i),sorted_aptamers[y][1]])
 	else:
-		bred_aptamers.append(["offspring_" + str(i),sorted_aptamers[0][1][0:x] + sorted_aptamers[1][1][x + 1:19]])
+		bred_aptamers.append(["offspring_" + str(i),sorted_aptamers[y][1][0:x] + sorted_aptamers[2 - y][1][x + 1:19]])
 
 print bred_aptamers
