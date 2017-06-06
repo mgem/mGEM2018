@@ -15,23 +15,27 @@ def aptamer_maker(): # function to generate a random aptamer 20 nucleotides long
 	return aptamer
 
 # array containing 4 randomly generated aptamers, their sequences and affinity scores
+parents = 6 # number of parent aptamers 
 aptamers = []
-aptamers.append(["aptamer_1",aptamer_maker(),65])
-aptamers.append(["aptamer_2",aptamer_maker(),15])
-aptamers.append(["aptamer_3",aptamer_maker(),35])
-aptamers.append(["aptamer_4",aptamer_maker(),45])
+
+for i in range(0,parents):
+	aptamers.append(["aptamer_" + str(i),aptamer_maker(),randint(0,100)])
 
 sorted_aptamers = sorted(aptamers, key=lambda x: x[2], reverse=True) # sorts aptamers from highest to lowest affinity scores
 
 print sorted_aptamers
 
-# breeds aptamers by combining the first and second halves of the highest affinity aptamers
-offspring_1 = sorted_aptamers[0][1][0:10] + sorted_aptamers[1][1][11:20]
-offspring_2 = sorted_aptamers[0][1][11:20] + sorted_aptamers[1][1][0:10]
-
-#array containing the new generation of aptamers with unknown scores, as they need to be experimentally determined
+offspring = 8 # desired number of offspring
 bred_aptamers = []
-bred_aptamers.append(["aptamer_5",offspring_1,"unknown"])
-bred_aptamers.append(["aptamer_6",offspring_2,"unknown"])
+
+# the two highest scoring aptamers are randomly crossed over to generate a specified number of offspring
+for i in range(0,offspring):
+	x = randint(0,19)
+	if x == 0:
+		bred_aptamers.append(["offspring_" + str(i),sorted_aptamers[1][1]])	
+	elif x == 19:
+		bred_aptamers.append(["offspring_" + str(i),sorted_aptamers[0][1]])
+	else:
+		bred_aptamers.append(["offspring_" + str(i),sorted_aptamers[0][1][0:x] + sorted_aptamers[1][1][x + 1:19]])
 
 print bred_aptamers
