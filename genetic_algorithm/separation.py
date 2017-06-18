@@ -97,5 +97,5 @@ def sep (input_sequence):
  
 aptemer ="AACCGGTT"
 newA =sep(aptemer)
-print (newA)
+#print (newA)
 #print("hello world")

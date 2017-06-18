@@ -47,5 +47,5 @@ def repla (input_sequence):
 
 aptemer ="AACCGGTT"
 newA =repla(aptemer)
-print (newA)
+#print (newA)
 #print("hello world")

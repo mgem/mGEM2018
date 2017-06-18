@@ -31,4 +31,4 @@ random.seed(101)
 #print type(pickRandomPair(testpop)) #works (returns tuple)
 
 #print(crossoverPair(seqPair)) #works
-print(crossoverPair(pickRandomPair(testpop)))
+#print(crossoverPair(pickRandomPair(testpop)))

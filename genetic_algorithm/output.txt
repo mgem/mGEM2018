@@ -1,3 +1,0 @@
-apt_1	seq_1	45	4
-apt_2	seq_2	55	5
-apt_3	seq_3	65	6
