@@ -1,16 +1,10 @@
 import os
-
-
 '''
 This program takes in aptamer text file and counts the number of hairpin structures.
 Hairpin: inverse repeats 
 Input: aptamer text file
 Output: dictionary with aptamer name, and number of hairpin structures.
 ''' 
-
-#define the minumum length of the hairpin structure
-MINIMUM_HAIRPIN_LENGTH = 5
-#function to count hairpins (palindromes)
 
 #returns inverted repeat sequence of sequence of interest to look for (String)
 def inverted_repeat (input_sequence):
@@ -24,9 +18,11 @@ def inverted_repeat (input_sequence):
     input_sequence = input_sequence.replace('X','G')
     #invert the complementary sequence 
     return input_sequence[::-1]
+
+
 #count the number of hairpins
 #returns: hairpin count 
-def hairpin (sequence):
+def hairpin (sequence, MINIMUM_HAIRPIN_LENGTH=5):
     hairpin_num =0 #initialize hairpin count
     
     #strip 5', 3' and -
@@ -42,27 +38,27 @@ def hairpin (sequence):
                 print (target)
                 hairpin_num = hairpin_num +1;
     return hairpin_num
-def remove_values_from_list(the_list, val): #remove values we don't want
+
+
+
+def striplist(the_list, val): #remove values we don't want
    return [value for value in the_list if value != val]
 
-#open aptamer list text file 
-file = open("Aptamer_List.txt", 'r')
-#create empty hairpin dictionary
-hairpin_dict = {}
 
-x=0
-name = ""
-h_num = 0
+def create_hairpin_dict(listfile):
+	#open aptamer list text file 
+	file = open(str(listfile), 'r')
+	#create empty hairpin dictionary
+	hairpin_dict = {}
+	list = file.readlines()
+	list = striplist(list, "\n") #remove any empty lines from the list 
 
-list = file.readlines()
-list = remove_values_from_list (list, "\n") #remove any empty lines from the list 
-
-for index, item in enumerate(list): #iterate aptamer file lines by index num
-    if (index%2==0):
-        name = item.strip('\n')
-    else:
-        h_num = hairpin(item.strip('\n'))
-        hairpin_dict [name] = h_num
-file.close()
+	for index, item in enumerate(list): #iterate aptamer file lines by index num
+	    if (index%2==0):
+		name = item.strip('\n')
+	    else:
+		h_num = hairpin(item.strip('\n'))
+		hairpin_dict[name] = h_num
+	file.close()
 #print (hairpin_dict)
 #print("hello world")

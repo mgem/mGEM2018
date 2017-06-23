@@ -2,7 +2,7 @@ import os
 import random
  
 '''
-This program takes in a aptamer and outputs an a apter with a dictionary of aptemers with 1 mutation
+This program takes in a aptamer and outputs an a aptamer with a dictionary of aptemers with 1 mutation
 Input: aptamer string
 Output: dictionary of aptamers with either 1 substitution or 1 addition
 ''' 
@@ -10,7 +10,7 @@ Output: dictionary of aptamers with either 1 substitution or 1 addition
 #function to replace a random site
  
 #returns sequence with random site substituted (string) 
-def sep (input_sequence):
+def seperate(input_sequence):
 	dictionary=[]
 	s=list(input_sequence)
 	for num in range(0, len(s)):
@@ -95,7 +95,3 @@ def sep (input_sequence):
 	return dictionary
 
  
-aptemer ="AACCGGTT"
-newA =sep(aptemer)
-#print (newA)
-#print("hello world")
