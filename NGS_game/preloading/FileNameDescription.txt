@@ -1,0 +1,9 @@
+loading =main html page
+game= all scenes
+Example1=intro logo
+Example2=options 
+Example3=credits
+fntitle=fragmentation title
+Fragmentation_intro=fragmentation description
+kttile=Bridge Amplification title 
+BridgeAmplification_intro=BridgeAmplification description

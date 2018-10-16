@@ -1,0 +1,5 @@
+To DO
+1)knifethrow to guitar hero link 
+	edit code in game file in knifethrow folder
+2) assembly_intro to guitar hero link
+	edit code in assembly_intro in preloading
